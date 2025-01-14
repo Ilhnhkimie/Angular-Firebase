@@ -95,7 +95,7 @@ logout() {
 }
 
   // Adds a text or image message to Cloud Firestore.
-  aaddMessage = async (
+  addMessage = async (
     textMessage: string | null,
     imageUrl: string | null,
   ): Promise<void | DocumentReference<DocumentData>> => {
